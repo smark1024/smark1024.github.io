@@ -34,7 +34,7 @@ body {
   word-break: keep-all;
 }
 
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 a { color: inherit; text-underline-offset: 0.18em; }
 p, h1, h2, h3 { margin-top: 0; }
 h1, h2, h3 { text-wrap: balance; }
