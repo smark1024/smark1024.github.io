@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="iPhone 동영상에서 원하는 1–2초를 골라 Live Photo로 만들고 움직이는 잠금 화면으로 적용하는 방법을 단계별로 알아보세요.">
+  <meta name="theme-color" content="#090b18">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="동영상을 iPhone 움직이는 잠금 화면으로 만드는 방법">
+  <meta property="og:description" content="영상 선택부터 Live Photo 저장과 잠금 화면 적용까지, WakeMotion 5분 가이드">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://smark1024.github.io/guides/video-to-live-photo.html">
+  <meta property="og:image" content="https://smark1024.github.io/assets/01-motion-to-lock-screen.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>동영상을 iPhone 움직이는 잠금 화면으로 만드는 방법 | WakeMotion</title>
+  <link rel="canonical" href="https://smark1024.github.io/guides/video-to-live-photo.html">
+  <link rel="icon" href="../assets/wakemotion-icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "동영상을 iPhone 움직이는 잠금 화면으로 만드는 방법",
+    "description": "WakeMotion으로 동영상의 원하는 1–2초를 Live Photo로 만들고 iPhone 잠금 화면에 적용하는 과정",
+    "totalTime": "PT5M",
+    "tool": [{"@type": "HowToTool", "name": "WakeMotion iPhone 앱"}],
+    "step": [
+      {"@type": "HowToStep", "name": "이 iPhone에 맞추기", "text": "첫 실행 안내에 따라 WakeMotion 화면에서 Live Photo를 한 번 촬영합니다."},
+      {"@type": "HowToStep", "name": "영상 선택", "text": "추천 모션 또는 사진 보관함의 내 영상을 선택합니다."},
+      {"@type": "HowToStep", "name": "움직일 구간 편집", "text": "원하는 1–2초와 대표 사진을 고르고 화면 구성을 확인합니다."},
+      {"@type": "HowToStep", "name": "Live Photo 저장", "text": "결과를 사진 앱에 저장하고 LIVE 재생을 확인합니다."},
+      {"@type": "HowToStep", "name": "잠금 화면 적용", "text": "iPhone의 배경화면 추가 화면에서 저장한 Live Photo를 선택합니다."}
+    ]
+  }
+  </script>
+</head>
+<body class="guide-page">
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="WakeMotion 홈">
+      <img src="../assets/wakemotion-icon.png" width="40" height="40" alt="">
+      <span>WakeMotion</span>
+    </a>
+    <nav aria-label="주요 메뉴">
+      <a href="../index.html#features">기능</a>
+      <a href="../index.html#how-it-works">사용 방법</a>
+      <a href="https://smark1024.github.io/wakemotion-support/">지원</a>
+    </nav>
+    <a class="store-link store-link--header" href="https://apps.apple.com/app/apple-store/id6801759823?pt=129313809&amp;ct=site_livephoto&amp;mt=8" aria-label="App Store에서 WakeMotion 보기">App Store</a>
+  </header>
+
+  <main id="main" class="guide-main">
+    <nav class="breadcrumbs" aria-label="현재 위치">
+      <a href="../index.html">홈</a><span aria-hidden="true">/</span><span>사용 가이드</span>
+    </nav>
+
+    <article>
+      <header class="guide-hero">
+        <p class="guide-meta">5분 가이드 · 2026년 8월 29일 업데이트</p>
+        <h1>동영상을 iPhone 움직이는 잠금 화면으로 만드는 방법</h1>
+        <p>WakeMotion은 사진 보관함에서 직접 고른 영상의 짧은 순간을 Live Photo로 바꿉니다. 처음 설치한 분도 아래 순서대로 따라 하면 저장부터 잠금 화면 적용까지 마칠 수 있습니다.</p>
+      </header>
+
+      <div class="guide-layout">
+        <aside class="guide-toc" aria-label="가이드 목차">
+          <strong>이 가이드에서 할 일</strong>
+          <ol>
+            <li><a href="#prepare">준비하기</a></li>
+            <li><a href="#calibrate">이 iPhone에 맞추기</a></li>
+            <li><a href="#edit">영상 고르고 편집하기</a></li>
+            <li><a href="#save">저장하고 적용하기</a></li>
+            <li><a href="#troubleshoot">문제 해결</a></li>
+          </ol>
+        </aside>
+
+        <div class="guide-content">
+          <section id="prepare">
+            <h2>1. 먼저 준비하세요</h2>
+            <p>iPhone과 잠금 화면으로 만들 동영상 하나면 충분합니다. 세로 영상이 가장 자연스럽지만, 가로 영상도 편집 화면에서 위치와 구성을 조절할 수 있습니다.</p>
+            <ul class="check-list">
+              <li>App Store에서 WakeMotion 설치</li>
+              <li>사진 보관함에 사용할 영상 준비</li>
+              <li>첫 실행 때 카메라·마이크·사진 접근 안내 확인</li>
+            </ul>
+            <a class="store-link store-link--primary guide-store-link" href="https://apps.apple.com/app/apple-store/id6801759823?pt=129313809&amp;ct=site_livephoto&amp;mt=8">
+              <span class="store-link-kicker">App Store에서</span>
+              <strong>WakeMotion 무료로 받기</strong>
+            </a>
+          </section>
+
+          <section id="calibrate">
+            <h2>2. 이 iPhone에 한 번 맞추세요</h2>
+            <p>처음 실행하면 WakeMotion 화면에서 안내용 Live Photo를 한 번 촬영합니다. Apple 카메라 앱의 LIVE 설정을 따로 바꿀 필요는 없습니다.</p>
+            <p>이 과정은 현재 iPhone의 잠금 화면 재생 특성에 맞는 최소 정보를 준비하기 위한 단계입니다. 촬영한 임시 사진과 영상은 맞춤 정보 추출 직후 삭제되고, 다른 기기와 동기화되지 않습니다.</p>
+            <div class="guide-note"><strong>권한이 보이지 않나요?</strong><p>iPhone 설정에서 WakeMotion의 카메라·마이크·사진 권한을 확인한 뒤 앱으로 돌아오세요.</p></div>
+          </section>
+
+          <section id="edit">
+            <h2>3. 영상에서 움직일 순간을 고르세요</h2>
+            <figure class="guide-figure">
+              <img src="../assets/04-start-with-recommended-motion.jpg" width="736" height="1600" loading="lazy" alt="WakeMotion에서 추천 모션과 내 영상 시작 방법을 선택하는 화면">
+              <figcaption>추천 모션으로 먼저 시험하거나 사진 보관함의 내 영상을 선택할 수 있습니다.</figcaption>
+            </figure>
+            <ol class="guide-steps">
+              <li><strong>추천 모션 또는 내 영상 선택</strong><span>처음이라면 앱에 포함된 AI 제작 추천 모션으로 전체 흐름을 먼저 확인해도 좋습니다.</span></li>
+              <li><strong>1–2초 구간 선택</strong><span>잠금 화면에서 가장 분명하게 보일 움직임을 짧게 고릅니다.</span></li>
+              <li><strong>대표 사진 확인</strong><span>잠금 화면이 멈춰 있을 때 보일 장면과 움직임의 연결을 미리 봅니다.</span></li>
+              <li><strong>화면 구성 조절</strong><span>색감, 화면 채우기, PIP와 오버레이가 필요하면 편집 화면에서 적용합니다.</span></li>
+            </ol>
+          </section>
+
+          <section id="save">
+            <h2>4. Live Photo로 저장하고 잠금 화면에 적용하세요</h2>
+            <figure class="guide-figure guide-figure--wide">
+              <img src="../assets/01-motion-to-lock-screen.jpg" width="736" height="1600" loading="lazy" alt="WakeMotion Live Photo 저장 완료와 움직이는 iPhone 잠금 화면 예시">
+              <figcaption>사진 앱에서 LIVE 재생을 먼저 확인하면 잠금 화면 적용 결과를 예상하기 쉽습니다.</figcaption>
+            </figure>
+            <ol class="guide-steps">
+              <li><strong>WakeMotion에서 Live Photo 만들기</strong><span>무료 앱이라 저장 과정에서 광고가 표시될 수 있습니다. 광고가 준비되지 않으면 편집 결과를 잃지 않도록 저장을 계속합니다.</span></li>
+              <li><strong>사진 앱에서 LIVE 확인</strong><span>저장된 항목을 열어 움직임이 원하는 구간인지 확인합니다. Live Photo 결과는 무음입니다.</span></li>
+              <li><strong>새 잠금 화면에 추가</strong><span>iPhone의 배경화면 추가 화면에서 저장한 Live Photo를 고르고 움직임 옵션을 확인한 뒤 적용합니다.</span></li>
+            </ol>
+          </section>
+
+          <section id="troubleshoot">
+            <h2>잠금 화면에서 움직이지 않을 때</h2>
+            <details open>
+              <summary>사진 앱에서는 움직이는데 잠금 화면에서는 멈춰 있어요.</summary>
+              <p>WakeMotion 설정의 ‘잠금 화면 호환성’을 한 단계 높여 다시 만들어 보세요. 원본 영상과 iOS 버전에 따라 결과가 달라질 수 있으므로 모든 영상의 움직임을 보장하지는 않습니다.</p>
+            </details>
+            <details>
+              <summary>처음 맞춤 촬영이 완료되지 않아요.</summary>
+              <p>카메라와 마이크 권한을 허용하고, 다른 앱이 카메라를 사용 중이지 않은지 확인하세요. 계속 실패하면 WakeMotion 설정에서 맞춤 정보를 초기화한 뒤 다시 시도할 수 있습니다.</p>
+            </details>
+            <details>
+              <summary>일반 MP4로 저장하고 싶어요.</summary>
+              <p>홈에서 Video Studio를 선택하세요. 구간 자르기, 분할, 화면 비율, 속도와 원본 소리 유지·음소거를 선택해 MP4로 저장할 수 있습니다.</p>
+            </details>
+          </section>
+
+          <section class="privacy-summary" aria-labelledby="privacy-title">
+            <h2 id="privacy-title">내 영상은 어디에서 처리되나요?</h2>
+            <p>선택한 영상과 Live Photo 변환은 iPhone 안에서 처리됩니다. WakeMotion은 사용자 미디어를 저장하는 자체 계정이나 백엔드를 운영하지 않습니다.</p>
+            <a href="https://smark1024.github.io/wakemotion-support/privacy.html">개인정보처리방침 자세히 보기 <span aria-hidden="true">→</span></a>
+          </section>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><strong>WakeMotion</strong><span>© 2026 KyeHyun Kim</span></div>
+    <nav aria-label="법률 및 지원">
+      <a href="../index.html">홈</a>
+      <a href="https://smark1024.github.io/wakemotion-support/">지원</a>
+      <a href="https://smark1024.github.io/wakemotion-support/privacy.html">개인정보처리방침</a>
+      <a href="mailto:wakemotion.support@gmail.com">문의</a>
+    </nav>
+  </footer>
+</body>
+</html>
