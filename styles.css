@@ -610,7 +610,8 @@ summary:focus-visible {
   .feature-grid article { min-height: 0; }
   .feature-grid article:nth-child(2) { transform: none; }
   .spotlight { grid-template-columns: 1fr; }
-  .spotlight-visual { width: min(100%, 390px); }
+  .spotlight-copy { order: -1; }
+  .spotlight-visual { width: min(100%, 330px); }
   .guide-callout { grid-template-columns: 1fr; align-items: start; gap: 26px; }
   .faq-grid { grid-template-columns: 1fr; }
   .cta-panel { grid-template-columns: auto 1fr; }
@@ -634,6 +635,7 @@ summary:focus-visible {
   .hero-visual { height: 510px; }
   .phone-shot--front { width: 76%; }
   .phone-shot--rear { width: 62%; left: 2%; }
+  .spotlight-visual { width: min(64vw, 250px); border-radius: 22px; }
   .trust-row { grid-template-columns: 1fr; }
   .trust-row p { min-height: 100px; padding-inline: 18px; }
   .trust-row p + p { border-left: 0; border-top: 1px solid var(--line); }
@@ -647,7 +649,7 @@ summary:focus-visible {
   .guide-layout { padding-bottom: 72px; }
   .guide-content > section { padding-bottom: 66px; }
   .guide-figure { grid-template-columns: 1fr; }
-  .guide-figure img { width: min(76vw, 320px); margin-inline: auto; }
+  .guide-figure img { width: min(66vw, 260px); margin-inline: auto; }
   .guide-steps li { grid-template-columns: 1fr; gap: 6px; }
   .guide-store-link { width: 100%; align-items: center; }
   footer { min-height: 0; flex-direction: column; align-items: flex-start; padding: 34px 0 44px; }
