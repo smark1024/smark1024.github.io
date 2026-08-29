@@ -637,14 +637,11 @@ summary:focus-visible {
   .phone-shot--rear { width: 62%; left: 2%; }
   .spotlight-visual {
     width: min(86vw, 320px);
-    height: 360px;
     border-radius: 22px;
   }
   .spotlight-visual img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 42%;
+    height: auto;
   }
   .trust-row { grid-template-columns: 1fr; }
   .trust-row p { min-height: 100px; padding-inline: 18px; }
